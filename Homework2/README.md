@@ -5,5 +5,6 @@ One of the docker images I came across while exploring on docker hub, was an ngi
 ## Choosing Alpine
 The docker image I ended choosing was the alpine image because it is more completes and a better base image for utilities and even production applications. I figured this specific image could be more useful in the futures if we were to add onto the image. Unlike other images with multiple options the alpine image is a base image having no options. This is not an issue because the image size is only 5MB and still has a package repository. 
 ## Image of Container
-<img width="657" alt="image" src="https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/ed5ee777-cb8e-4d0d-b438-d10bd3f54a54">
+<img width="368" alt="image" src="https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/444d8f01-2508-44cb-9f88-4796a232eb97">
+
 
