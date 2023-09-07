@@ -1,5 +1,5 @@
 # Homework 2
-1/c Ryann Vigo 06 SEP 2023
+1/c Ryan Vigo 06 SEP 2023
 ## Exploring Docker Hub
 One of the docker images I came across while exploring on docker hub, was an nginx image, or the official build from nginx. I found this satisfying because we used nginx for a CCN lab 3/c year to build a network. I found this particularly interesting because it shows how things we learned in previous classes have provided a foundation of learning and skills to help us succeed in this class. Similar to other images the nginx has multiple images you can choose from that are slightly different then the default image and can fit a variety of needs. Such as the slim version which carries a minimal weight with only packages required to run nginx. Another image I found interesting was from the company Vault. Vault is a tool for securely accessing secrets such as api keys, passwords or secrets. I found this interesting because I wanted to learn more about the specific tool and how it operates within the container to safeguard secrets. Unlike the nginx images which had multiple options based on need vault only has the singular option.
 ## Choosing Alpine
