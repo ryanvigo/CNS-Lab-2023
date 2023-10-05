@@ -15,5 +15,11 @@ In step 9 we run the host name command again but this time we use the key as the
 
 
 ## Applying Key Based Authentication
+![image](https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/9770757b-0145-447c-a07e-79eb671f13ab)
+
 ## Brute Forcing Passwords
+new password: 123456
+![image](https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/52728400-b707-4398-a40f-7e3a58e98e75)
+![image](https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/9212782f-fbf9-44fb-9995-4cc57b4dd288)
+
 
