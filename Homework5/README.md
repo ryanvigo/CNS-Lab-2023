@@ -15,12 +15,13 @@ In step 9 we run the host name command again but this time we use the key as the
 
 
 ## Applying Key Based Authentication
-In this step I ssh'd into my my jumpbox to change
+In this step I started by making a key, using the command ssh-keygen from there I used the command below to share the key with my ssh account. In this command i used the -i to add the identity key for the encryption key <br />
 ![image](https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/9770757b-0145-447c-a07e-79eb671f13ab)
 
 ## Brute Forcing Passwords
-new password: 123456
+In the first image i changed my default password to my new password: 123456 <br />
 ![image](https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/52728400-b707-4398-a40f-7e3a58e98e75)
+In the second image I ran the nmap ssh-brute force script using the target ip address and a file of users and file of common passwords. After the command was ran you can see the output of the script running and how it tests users and passwords. <br />
 ![image](https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/9212782f-fbf9-44fb-9995-4cc57b4dd288)
 
 
