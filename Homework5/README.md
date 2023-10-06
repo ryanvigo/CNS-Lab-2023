@@ -20,7 +20,7 @@ In this step I started by making a key, using the command ssh-keygen from there 
 
 ## Brute Forcing Passwords
 In the first image i changed my default password to my new password: 123456 <br />
-![image](https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/52728400-b707-4398-a40f-7e3a58e98e75)
+![image](https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/52728400-b707-4398-a40f-7e3a58e98e75) <br />
 In the second image I ran the nmap ssh-brute force script using the target ip address and a file of users and file of common passwords. After the command was ran you can see the output of the script running and how it tests users and passwords. <br />
 ![image](https://github.com/ryanvigo/CNS-Lab-2023/assets/79552150/9212782f-fbf9-44fb-9995-4cc57b4dd288)
 
