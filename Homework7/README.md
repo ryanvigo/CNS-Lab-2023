@@ -1,1 +1,6 @@
-H
+# Homework 7
+1/c Ryan Vigo, 26 Oct 2023, CNS
+## Vulnerable Service
+The vulnerable service I chose is OpenSMTPD, which acts as a mail server mimicking SMTP without using the protocol. This exploit comes from metasploit and has an excellent rating. In order to run this exploit it must be targeting a Linux machine that uses OpenSMTPD. The exploit works by using a command injection in the mail from field during the SMTP interaction of OpenSMTPD allowing to execute code as the root user. This exploit runs on port 25 of the targeted host. Some important information about this exploit is it only runs on version 5.0.23 and prior of OpenSMTPD, in order to use one of these versions I found a way to download and run the old version on any version of Linux using docker. This is important because a lot of the exploits listed do not run on current Linux systems as they have since been patched. Using this exploit you are able to gain root access to add and execute a reverse shell file similar to how we did things in the last lab.
+## CVE Information
+The CVE number for this exploit is 2020-7247 which OpenSTMPD allows remote attackers to execute arbitrary commands as root via a crafted SMTP session, as demonstrated by shell metacharacters in a MAIL FROM field. The severity score for this CVE is 9.8 and listed as critical. the corresponding CWE are CWE-78 Improper Neutralization of Special Elements used in an OS Command. The Seocnd CWE is CWE-755 Improper Handling of Exceptional Conditions.
